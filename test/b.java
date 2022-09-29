@@ -18,7 +18,8 @@ public class Details extends HttpJspBase {
 
 	public static void testData () {
 
-		String userData = request.getParameter("Data"); 
+		String userData = request.getParameter("Data");
+		System.out.println("test");
 		out.println (userData);
 		printSanitizedName(userData);
 	}
